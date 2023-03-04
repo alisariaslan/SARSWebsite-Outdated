@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+  background-image: url('../images/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.op {
+  opacity: .5;
+  transition: ease-in .5s;
+}
+
+.op:hover {
+  opacity: .75;
+  transition: ease-in .5s;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.divine {
+  background-color: black;
+  min-height: 85%;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+}
+
+p {
+   text-align: center;
+  color: white;
+}
+
+.imge {
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+  width: 10vw;
+  height: 10vw;
+}
+
+.c {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+.csharp {
+  position: absolute;
+  top: 10vw;
+  left: 5vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+.nodejs {
+  position: absolute;
+  top: 15vw;
+  left: 5vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+.java {
+  position: absolute;
+  top: 20vw;
+  left: 5vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+
+
+.html {
+  position: absolute;
+  top: 26vw;
+  left: 5.5vw;
+  width: 4vw;
+  height: 4vw;
+}
+
+.css {
+  position: absolute;
+  top: 30.5vw;
+  left: 5.5vw;
+  width: 4vw;
+  height: 4vw;
+}
+
+.javascript {
+  position: absolute;
+  top: 35vw;
+  left: 5.5vw;
+  width: 4vw;
+  height: 4vw;
+}
