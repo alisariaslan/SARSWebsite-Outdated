@@ -1,2 +1,2 @@
-node main.js sarsyazilim.com.tr 80
-pause
+node main.js 192.168.1.100 80
+::pause
