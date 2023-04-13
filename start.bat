@@ -1,2 +1,2 @@
-node main.js 192.168.1.100 80
+node main.js localhost 80
 ::pause
