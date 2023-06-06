@@ -3,7 +3,8 @@
     src: url("../fonts/Poppins-Regular.ttf");
   }
   
-  div,h1,h2,h3 {
+  ul,li,a,p,h1,h2,h3,h4,h5 {
     font-family: "PoppinsRegular";
     src: url("../fonts/Poppins-Regular.ttf");
+    color: white;
   }

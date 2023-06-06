@@ -27,29 +27,26 @@ body {
   width: 90%;
   margin: auto;
   margin-top: 5%;
+  padding: 30px;
 }
 
-h1 {
+a,p,h1,h2,h3,h4,h5 {
   text-align: center;
-  color: white;
+  text-decoration: none;
+  color: #fff;
 }
 
-h2 {
-  text-align: center;
-  color: white;
+.link {
+  color: #ddd;
+  transition: ease-in-out .25s;
 }
 
-h5 {
-  text-align: center;
-  color: white;
+.link:hover {
+  color: #fff;
+  transition: ease-in-out .25s;
 }
 
-p {
-   text-align: center;
-  color: white;
-}
-
-.imge {
+.sars_icon {
   position: absolute;
   top: 5vw;
   right: 5vw;
@@ -57,60 +54,58 @@ p {
   height: 10vw;
 }
 
-.c {
-  position: absolute;
-  top: 5vw;
-  left: 5vw;
-  width: 5vw;
-  height: 5vw;
-}
-
 .csharp {
   position: absolute;
-  top: 10vw;
-  left: 5vw;
-  width: 5vw;
-  height: 5vw;
-}
-
-.nodejs {
-  position: absolute;
-  top: 15vw;
-  left: 5vw;
+  top: 5.5vw;
+  left: 5.25vw;
   width: 5vw;
   height: 5vw;
 }
 
 .java {
   position: absolute;
-  top: 20vw;
-  left: 5vw;
+  top: 11vw;
+  left: 5.25vw;
   width: 5vw;
   height: 5vw;
 }
 
+.maui {
+  position: absolute;
+  top: 17vw;
+  left: 5.25vw;
+  width: 5vw;
+  height: 5vw;
+}
 
+.nodejs {
+  position: absolute;
+  top: 23vw;
+  left: 5.25vw;
+  width: 5vw;
+  height: 5vw;
+}
 
 .html {
   position: absolute;
-  top: 26vw;
-  left: 5.5vw;
+  top: 29vw;
+  left: 5.75vw;
   width: 4vw;
   height: 4vw;
 }
 
 .css {
   position: absolute;
-  top: 30.5vw;
-  left: 5.5vw;
+  top: 34vw;
+  left: 5.75vw;
   width: 4vw;
   height: 4vw;
 }
 
 .javascript {
   position: absolute;
-  top: 35vw;
-  left: 5.5vw;
+  top: 39vw;
+  left: 5.75vw;
   width: 4vw;
   height: 4vw;
 }
