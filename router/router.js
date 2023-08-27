@@ -11,4 +11,6 @@ router.get('/politics/benfit', function (req, res, next) { res.render('politics/
 router.get('/politics/apaydinfitness', function (req, res, next) { res.render('politics/apaydinfitness'); });
 router.get('/politics/parkor', function (req, res, next) { res.render('politics/parkor'); });
 router.get('/politics/fitkal', function (req, res, next) { res.render('politics/fitkal'); });
+router.get('/politics/cubescollide', function (req, res, next) { res.render('politics/cubescollide'); });
+
 module.exports = router;
